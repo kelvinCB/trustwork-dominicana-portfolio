@@ -13,8 +13,8 @@ html { scroll-behavior: smooth; }
 body {
   margin: 0;
   background:
-    radial-gradient(circle at top left, rgba(14,165,233,0.18), transparent 22%),
-    radial-gradient(circle at top right, rgba(59,130,246,0.14), transparent 24%),
+    radial-gradient(circle at top left, rgba(239,68,68,0.20), transparent 22%),
+    radial-gradient(circle at top right, rgba(220,38,38,0.16), transparent 24%),
     linear-gradient(180deg, #07111f 0%, #091827 42%, #08131d 100%);
 }
 a { color: inherit; text-decoration: none; }
@@ -35,8 +35,8 @@ ul { margin: 0; padding: 0; list-style: none; }
 .brand-mark { display: inline-flex; align-items: center; gap: 10px; font-weight: 700; letter-spacing: .02em; }
 .brand-dot {
   width: 14px; height: 14px; border-radius: 999px;
-  background: linear-gradient(135deg, #38bdf8, #60a5fa);
-  box-shadow: 0 0 18px rgba(56,189,248,.55);
+  background: linear-gradient(135deg, #ef4444, #b91c1c);
+  box-shadow: 0 0 18px rgba(239,68,68,.45);
 }
 .site-nav { display: flex; gap: 20px; color: rgba(255,255,255,.78); }
 main { max-width: 1200px; margin: 0 auto; padding: 24px 20px 80px; }
@@ -46,13 +46,13 @@ main { max-width: 1200px; margin: 0 auto; padding: 24px 20px 80px; }
   display: grid; grid-template-columns: 1.05fr .95fr; gap: 42px; align-items: center; min-height: 72vh;
 }
 .eyebrow {
-  text-transform: uppercase; font-size: .78rem; letter-spacing: .22em; color: #7dd3fc; margin-bottom: 12px;
+  text-transform: uppercase; font-size: .78rem; letter-spacing: .22em; color: #fca5a5; margin-bottom: 12px;
 }
 .hero-copy h1, .section-heading h2, .services-copy h2, .mission-section h2, .team-section h2, .cta-section h2 {
   margin: 0; line-height: 1.02; letter-spacing: -.04em;
 }
 .hero-copy h1 { font-size: clamp(3rem, 7vw, 5.6rem); max-width: 13ch; }
-.hero-copy h1 span { color: #8b5cf6; }
+.hero-copy h1 span { color: #f87171; }
 .hero-text, .services-copy p, .mission-section p, .reason-card p, .pillar-card p, .team-grid p, .cta-section p, .credibility-strip span, .visual-panel p {
   color: rgba(255,255,255,.76); line-height: 1.75;
 }
@@ -66,10 +66,10 @@ main { max-width: 1200px; margin: 0 auto; padding: 24px 20px 80px; }
 }
 .primary-button:hover, .secondary-button:hover, .contact-card:hover, .site-nav a:hover { transform: translateY(-1px); }
 .primary-button {
-  background: linear-gradient(135deg, #2563eb, #7c3aed); color: white; box-shadow: 0 18px 35px rgba(37,99,235,.28);
+  background: linear-gradient(135deg, #b91c1c, #ef4444); color: white; box-shadow: 0 18px 35px rgba(185,28,28,.32);
 }
 .secondary-button {
-  border: 1px solid rgba(255,255,255,.16); color: #e5e7eb; background: rgba(255,255,255,.04);
+  border: 1px solid rgba(255,255,255,.16); color: #e5e7eb; background: rgba(127,29,29,.12);
 }
 
 .minimal-visual {
@@ -80,8 +80,8 @@ main { max-width: 1200px; margin: 0 auto; padding: 24px 20px 80px; }
 .visual-orb {
   position: absolute; border-radius: 999px; filter: blur(18px); opacity: .7;
 }
-.orb-one { width: 220px; height: 220px; top: 8%; left: 12%; background: rgba(56,189,248,.25); }
-.orb-two { width: 260px; height: 260px; right: 8%; bottom: 10%; background: rgba(99,102,241,.22); }
+.orb-one { width: 220px; height: 220px; top: 8%; left: 12%; background: rgba(239,68,68,.28); }
+.orb-two { width: 260px; height: 260px; right: 8%; bottom: 10%; background: rgba(153,27,27,.22); }
 .visual-panel-line {
   position: absolute; inset: 8% auto 8% 50%; width: 1px; background: linear-gradient(to bottom, transparent, rgba(255,255,255,.24), transparent);
 }
@@ -90,7 +90,7 @@ main { max-width: 1200px; margin: 0 auto; padding: 24px 20px 80px; }
   background: rgba(7,17,31,.52); border: 1px solid rgba(255,255,255,.08); backdrop-filter: blur(12px); border-radius: 28px;
 }
 .visual-kicker {
-  color: #7dd3fc; text-transform: uppercase; letter-spacing: .18em; font-size: .75rem; margin-bottom: 12px;
+  color: #fca5a5; text-transform: uppercase; letter-spacing: .18em; font-size: .75rem; margin-bottom: 12px;
 }
 .visual-title {
   font-size: clamp(1.9rem, 3vw, 2.8rem); line-height: 1.04; letter-spacing: -.04em; margin-bottom: 14px;
@@ -140,7 +140,7 @@ main { max-width: 1200px; margin: 0 auto; padding: 24px 20px 80px; }
 .minimal-contact span { color: rgba(255,255,255,.72); }
 
 .site-nav a:focus-visible, .primary-button:focus-visible, .secondary-button:focus-visible, .contact-card:focus-visible {
-  outline: 2px solid #ffffff; outline-offset: 4px; box-shadow: 0 0 0 6px rgba(125,211,252,.18);
+  outline: 2px solid #ffffff; outline-offset: 4px; box-shadow: 0 0 0 6px rgba(248,113,113,.18);
 }
 
 @media (max-width: 980px) {
