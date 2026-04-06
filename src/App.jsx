@@ -1,7 +1,6 @@
 import {
   ArrowRight,
   BadgeCheck,
-  Building2,
   Briefcase,
   CheckCircle2,
   FileSpreadsheet,
@@ -115,14 +114,14 @@ function App() {
       </header>
 
       <main>
-        <section className="hero-section">
+        <section className="hero-section editorial-hero">
           <div className="hero-copy">
             <div className="eyebrow">Gestión del talento humano con rigor institucional</div>
             <h1>
-              Outsourcing laboral con <span>rostro humano</span> para empresas que no pueden permitirse improvisar.
+              Outsourcing laboral con <span>rostro humano</span> para empresas que necesitan operar con control, cumplimiento y respaldo real.
             </h1>
             <p className="hero-text">
-              TrustWork Dominicana ayuda a empresas locales e internacionales a contratar, administrar nómina y gestionar talento humano en República Dominicana con estructura, cumplimiento y protección operativa real.
+              TrustWork Dominicana acompaña empresas locales e internacionales en contratación, nómina, cumplimiento y gestión integral del talento humano en República Dominicana, con un enfoque ejecutivo, preciso y jurídicamente estructurado.
             </p>
             <ul className="hero-benefits">
               {differentiators.map((item) => (
@@ -140,57 +139,42 @@ function App() {
                 Ver sitio oficial
               </a>
             </div>
-            <div className="hero-note">
-              Pensado para directores, unidades B2B y empresas que buscan cumplimiento sin fricción operativa.
-            </div>
           </div>
 
-          <div className="hero-panel glass-panel">
-            <div className="hero-card-grid">
-              <div className="hero-card large-card">
-                <ShieldCheck size={28} />
-                <h3>Protección laboral</h3>
-                <p>La carga operativa y laboral se ejecuta con estructura, control documental y trazabilidad.</p>
-              </div>
-              <div className="hero-card metric-card">
-                <Users size={24} />
-                <strong>Talento humano</strong>
-                <span>Contratación, nómina y gestión completa</span>
-              </div>
-              <div className="hero-card metric-card">
-                <Globe2 size={24} />
-                <strong>Empresas internacionales</strong>
-                <span>Entrada ordenada al mercado dominicano</span>
-              </div>
-              <div className="hero-card metric-card">
-                <Building2 size={24} />
-                <strong>Operación B2B</strong>
-                <span>Respaldo para directores y unidades comerciales</span>
-              </div>
+          <div className="hero-visual minimal-visual">
+            <div className="visual-orb orb-one" />
+            <div className="visual-orb orb-two" />
+            <div className="visual-panel-line" />
+            <div className="visual-panel">
+              <div className="visual-kicker">Protección • Cumplimiento • Nómina</div>
+              <div className="visual-title">Estructura laboral para crecer sin fricción operativa</div>
+              <p>
+                Desde operaciones en expansión hasta estructuras multiempresa, la firma ejecuta el back office laboral con estándares institucionales y foco comercial B2B.
+              </p>
             </div>
           </div>
         </section>
 
-        <section className="stats-section" aria-label="Indicadores principales">
+        <section className="stats-section clean-stats" aria-label="Indicadores principales">
           {stats.map((stat) => (
-            <div className="stat-card glass-panel" key={stat.label}>
+            <div className="stat-card bare-stat" key={stat.label}>
               <strong>{stat.value}</strong>
               <span>{stat.label}</span>
             </div>
           ))}
         </section>
 
-        <section className="pillars-section" id="empresa">
+        <section className="pillars-section clean-section" id="empresa">
           <div className="section-heading">
             <div className="eyebrow">Lo que define a la firma</div>
-            <h2>Una operación construida para dar confianza, control y cumplimiento.</h2>
+            <h2>Una operación diseñada para proteger el negocio y liberar a la dirección de la complejidad laboral.</h2>
           </div>
-          <div className="pillars-grid">
+          <div className="pillars-grid clean-grid">
             {pillars.map((pillar) => {
               const Icon = pillar.icon;
               return (
-                <article className="pillar-card glass-panel" key={pillar.title}>
-                  <Icon size={26} />
+                <article className="pillar-card soft-card" key={pillar.title}>
+                  <Icon size={24} />
                   <h3>{pillar.title}</h3>
                   <p>{pillar.text}</p>
                 </article>
@@ -199,15 +183,15 @@ function App() {
           </div>
         </section>
 
-        <section className="services-section" id="servicios">
+        <section className="services-section editorial-services" id="servicios">
           <div className="services-copy">
             <div className="eyebrow">Portafolio de servicios</div>
-            <h2>Todo lo que una empresa necesita para operar personal con orden y sin improvisación.</h2>
+            <h2>Todo lo necesario para operar personal con orden, trazabilidad y cumplimiento.</h2>
             <p>
-              TrustWork Dominicana ejecuta los procesos laborales y administrativos que permiten a las organizaciones optimizar estructura, reducir riesgos y liberar a sus equipos directivos de la complejidad de gestionar personal internamente.
+              TrustWork Dominicana ejecuta procesos laborales y administrativos que ayudan a las organizaciones a reducir riesgo, ganar eficiencia y sostener crecimiento con una estructura más clara.
             </p>
           </div>
-          <div className="services-list glass-panel">
+          <div className="services-list simple-surface">
             <ul>
               {services.map((service) => (
                 <li className="service-row" key={service}>
@@ -219,24 +203,24 @@ function App() {
           </div>
         </section>
 
-        <section className="mission-section glass-panel">
+        <section className="mission-section simple-surface">
           <div>
             <div className="eyebrow">Misión e intención</div>
             <h2>Ser el socio de confianza que asume la gestión laboral para que el crecimiento no se detenga.</h2>
           </div>
           <p>
-            La firma trabaja para construir relaciones comerciales duraderas basadas en resultados, transparencia y cumplimiento. Cada cliente debe sentir que su operación está respaldada por un equipo que entiende su contexto y actúa en consecuencia.
+            La firma construye relaciones comerciales duraderas basadas en resultados, transparencia y cumplimiento. Cada cliente debe sentir que su operación está respaldada por un equipo que entiende su contexto y actúa en consecuencia.
           </p>
         </section>
 
-        <section className="dominicana-section">
+        <section className="dominicana-section clean-section">
           <div className="section-heading">
             <div className="eyebrow">Por qué República Dominicana</div>
-            <h2>Una plataforma natural para operar, expandirse y estructurar personal con alcance regional.</h2>
+            <h2>Una plataforma natural para establecer, expandir y estructurar operaciones con alcance regional.</h2>
           </div>
-          <div className="reasons-grid">
+          <div className="reasons-grid clean-grid">
             {reasons.map((reason) => (
-              <article className="reason-card glass-panel" key={reason.title}>
+              <article className="reason-card soft-card" key={reason.title}>
                 <h3>{reason.title}</h3>
                 <p>{reason.text}</p>
               </article>
@@ -244,12 +228,12 @@ function App() {
           </div>
         </section>
 
-        <section className="team-section glass-panel">
+        <section className="team-section simple-surface">
           <div className="section-heading left-align">
             <div className="eyebrow">Equipo operativo</div>
             <h2>Especialistas en derecho laboral, nómina, documentación y ejecución institucional.</h2>
           </div>
-          <div className="team-grid">
+          <div className="team-grid clean-grid team-minimal">
             <div>
               <Briefcase size={22} />
               <h3>Operaciones laborales</h3>
@@ -268,19 +252,19 @@ function App() {
           </div>
         </section>
 
-        <section className="sectors-section" id="sectores">
+        <section className="sectors-section clean-section" id="sectores">
           <div className="section-heading">
             <div className="eyebrow">Sectores que atendemos</div>
             <h2>Capacidad para acompañar empresas locales, regionales e internacionales en múltiples industrias.</h2>
           </div>
-          <ul className="sectors-grid">
+          <ul className="sectors-grid editorial-chips">
             {sectors.map((sector) => (
               <li className="sector-chip" key={sector}>{sector}</li>
             ))}
           </ul>
         </section>
 
-        <section className="credibility-strip glass-panel">
+        <section className="credibility-strip simple-surface editorial-strip">
           <div>
             <strong>Enfoque institucional</strong>
             <span>Procesos laborales, nómina y cumplimiento ejecutados con rigor y trazabilidad.</span>
@@ -295,30 +279,30 @@ function App() {
           </div>
         </section>
 
-        <section className="cta-section glass-panel" id="contacto">
+        <section className="cta-section simple-surface" id="contacto">
           <div>
             <div className="eyebrow">Contacto comercial</div>
-            <h2>Si tu empresa necesita operar personal con más orden, cumplimiento y respaldo, esta conversación vale la pena.</h2>
+            <h2>Solicita una conversación estratégica para estructurar tu operación laboral con mayor control y cumplimiento.</h2>
             <p>
-              Solicita una conversación estratégica con TrustWork Dominicana y recibe una orientación inicial para estructurar tu operación laboral con mayor control, cumplimiento y continuidad.
+              TrustWork Dominicana puede convertirse en el respaldo operativo que tu empresa necesita para crecer con menos fricción administrativa y más seguridad jurídica.
             </p>
           </div>
-          <div className="contact-grid">
-            <a className="contact-card" href="mailto:contacto@trustworkdominicana.com">
+          <div className="contact-grid editorial-contact-grid">
+            <a className="contact-card minimal-contact" href="mailto:contacto@trustworkdominicana.com">
               <Mail size={20} />
               <div>
                 <strong>Correo</strong>
                 <span>contacto@trustworkdominicana.com</span>
               </div>
             </a>
-            <a className="contact-card" href="tel:+18295550147">
+            <a className="contact-card minimal-contact" href="tel:+18295550147">
               <Phone size={20} />
               <div>
                 <strong>Teléfono</strong>
                 <span>+1 (829) 555-0147</span>
               </div>
             </a>
-            <a className="contact-card" href="https://wa.me/18295550147" target="_blank" rel="noreferrer">
+            <a className="contact-card minimal-contact" href="https://wa.me/18295550147" target="_blank" rel="noreferrer">
               <MessageCircle size={20} />
               <div>
                 <strong>WhatsApp</strong>
