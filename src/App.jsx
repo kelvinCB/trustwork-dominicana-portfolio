@@ -109,6 +109,52 @@ function App() {
           <div className="image-panel"><img src={servicesImage} alt="Profesionales analizando métricas y procesos de nómina" className="section-image" /></div>
         </section>
 
+
+        <section className="profile-focus-section" aria-labelledby="profile-focus-title">
+          <div className="profile-focus-eyebrow">ENFOQUES POR PERFIL EMPRESARIAL</div>
+          <div className="profile-focus-table">
+            <div className="profile-column">
+              <div className="profile-column-header">Empresas grandes</div>
+              <div className="profile-column-body">
+                <h3>Optimización de costos laborales</h3>
+                <p>La tercerización transforma costos fijos en estructura variable, reduciendo la carga interna sin sacrificar control ni calidad.</p>
+                <ul>
+                  <li>Reducción de costos por personal indirecto</li>
+                  <li>Eliminación de cargas administrativas internas</li>
+                  <li>Estructura laboral flexible y escalable</li>
+                  <li>Gestión centralizada de múltiples nóminas</li>
+                </ul>
+              </div>
+            </div>
+            <div className="profile-column">
+              <div className="profile-column-header">Empresas pequeñas</div>
+              <div className="profile-column-body">
+                <h3>Cumplimiento legal y protección jurídica</h3>
+                <p>Formalizamos y protegemos la relación laboral, evitando contingencias legales y demandas que comprometan la operación.</p>
+                <ul>
+                  <li>Formalización del personal contratado</li>
+                  <li>Cumplimiento de la legislación laboral dominicana</li>
+                  <li>Prevención de demandas y contingencias</li>
+                  <li>Afiliación y gestión de seguridad social</li>
+                </ul>
+              </div>
+            </div>
+            <div className="profile-column">
+              <div className="profile-column-header">Empresas internacionales</div>
+              <div className="profile-column-body">
+                <h3>Entrada al mercado dominicano</h3>
+                <p>Facilitamos la contratación legal de personal local sin necesidad de constituir estructura propia desde el inicio.</p>
+                <ul>
+                  <li>Contratación inmediata bajo marco legal dominicano</li>
+                  <li>Nómina en múltiples monedas</li>
+                  <li>Sin carga jurídica directa sobre la empresa extranjera</li>
+                  <li>Escalabilidad según crecimiento local</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section className="mission-section simple-surface">
           <div>
             <div className="eyebrow">Misión e intención</div>
