@@ -3,7 +3,7 @@ import './App.css';
 
 const heroImage = 'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1600';
 const servicesImage = 'https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1200&q=80';
-const rdImage = 'https://images.unsplash.com/photo-1586165877141-7b5f8a1b2a3d?auto=format&fit=crop&w=1200&q=80';
+const rdImage = 'https://commons.wikimedia.org/wiki/Special:FilePath/Zona_Colonial_-_Santo_Domingo,_Dominican_Republic.jpg';
 const teamImage = 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80';
 
 const pillars = [
