@@ -1,7 +1,7 @@
 import { ArrowRight, BadgeCheck, Briefcase, CheckCircle2, FileSpreadsheet, Landmark, Mail, ShieldCheck, Users } from 'lucide-react';
 import './App.css';
 
-const heroImage = 'https://images.unsplash.com/photo-1548018019-a8686ffb6a3e?auto=format&fit=crop&w=1600&q=80';
+const heroImage = 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=1600';
 const servicesImage = 'https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1200&q=80';
 const rdImage = 'https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?auto=format&fit=crop&w=1200&q=80';
 const teamImage = 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80';
@@ -75,7 +75,7 @@ function App() {
               <a className="secondary-button" href="https://trustworkdominicana.com/" target="_blank" rel="noreferrer">Ver sitio oficial</a>
             </div>
           </div>
-          <div className="hero-image-wrap"><img src={heroImage} alt="Zona Colonial de Santo Domingo, República Dominicana" className="section-image hero-image" /></div>
+          <div className="hero-image-wrap"><img src={heroImage} alt="Equipo corporativo reunido en una oficina moderna" className="section-image hero-image" /></div>
         </section>
 
         <section className="stats-section clean-stats" aria-label="Indicadores principales">
