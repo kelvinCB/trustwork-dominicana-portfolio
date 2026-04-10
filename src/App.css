@@ -860,3 +860,17 @@ main {
     border-right: none;
   }
 }
+
+
+.client-profile-section {
+  margin-top: 34px;
+}
+
+.client-profile-quote {
+  text-align: center;
+  font-size: clamp(2rem, 3vw, 3rem);
+  font-style: italic;
+  font-weight: 700;
+  color: #f5f1e7;
+  margin: 4px 0 14px;
+}

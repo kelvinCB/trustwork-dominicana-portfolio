@@ -382,6 +382,27 @@ function App() {
           </div>
         </section>
 
+
+
+        <section className="client-profile-section" aria-labelledby="client-profile-title">
+          <h2 id="client-profile-title" className="tech-platform-title">Perfil de cliente</h2>
+          <div className="tech-platform-divider" />
+          <div className="client-profile-quote">Un respaldo a su altura.</div>
+          <p className="tech-platform-copy">
+            TrustWork Dominicana está diseñada para organizaciones que reconocen que la gestión del
+            talento humano no es un proceso operativo, sino una ventaja competitiva cuando se gestiona
+            correctamente.
+          </p>
+          <div className="mini-grid-table three-columns">
+            <div className="mini-head">Para el Director B2B</div>
+            <div className="mini-head">Para el cliente final</div>
+            <div className="mini-head">Para el mercado internacional</div>
+            <div className="mini-cell">Este material es su herramienta estratégica de presentación. Sus clientes acceden a la firma a través de su recomendación y se vinculan directamente con nuestra estructura operativa bajo su respaldo personal.</div>
+            <div className="mini-cell">Cada cliente cuenta con un punto de contacto dedicado y visibilidad total de su operación desde el primer día. La experiencia del servicio es personalizada, no estándar.</div>
+            <div className="mini-cell">Operamos en la República Dominicana bajo estándares de gestión alineados con mercados internacionales, facilitando la entrada y escalabilidad de empresas extranjeras en el país.</div>
+          </div>
+        </section>
+
         <section className="mission-section simple-surface">
           <div>
             <div className="eyebrow">Misión e intención</div>
