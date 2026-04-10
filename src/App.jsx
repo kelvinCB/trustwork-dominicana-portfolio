@@ -65,7 +65,7 @@ function App() {
         <section className="hero-section editorial-hero with-image">
           <div className="hero-copy">
             <div className="eyebrow">Gestión del talento humano con rigor institucional</div>
-            <h1>Outsourcing laboral con <span>rostro humano</span> para empresas que necesitan operar con control, cumplimiento y respaldo real.</h1>
+            <h1>Outsourcing con <span>rostro humano</span> para empresas que necesitan operar con control, cumplimiento y respaldo real.</h1>
             <p className="hero-text">TrustWork Dominicana acompaña empresas locales e internacionales en contratación, nómina, cumplimiento y gestión integral del talento humano en República Dominicana, con un enfoque ejecutivo, preciso y jurídicamente estructurado.</p>
             <ul className="hero-benefits">
               {differentiators.map((item) => <li key={item}><CheckCircle2 size={18} /><span>{item}</span></li>)}
