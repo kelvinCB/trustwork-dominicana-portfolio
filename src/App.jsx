@@ -303,6 +303,50 @@ function App() {
           </div>
         </section>
 
+
+
+        <section className="comparison-section" aria-labelledby="comparison-title">
+          <h2 id="comparison-title" className="tech-platform-title">TWD vs. Departamento de RR.HH. Interno</h2>
+          <div className="tech-platform-divider" />
+          <div className="comparison-table">
+            <div className="comparison-head head-criterion">Criterio</div>
+            <div className="comparison-head head-twd">TrustWork Dominicana ✓</div>
+            <div className="comparison-head head-internal">RR.HH. interno ✗</div>
+
+            <div className="comparison-cell criterion-cell">Responsabilidad legal laboral</div>
+            <div className="comparison-cell">La TWD asume la relación laboral y sus obligaciones</div>
+            <div className="comparison-cell">La empresa sigue siendo el empleador; el riesgo no se transfiere</div>
+
+            <div className="comparison-cell criterion-cell">Exposición a demandas laborales</div>
+            <div className="comparison-cell">Gestionadas y absorbidas por la TWD</div>
+            <div className="comparison-cell">Recaen sobre la empresa y sus representantes legales</div>
+
+            <div className="comparison-cell criterion-cell">Carga administrativa</div>
+            <div className="comparison-cell">Eliminada por completo del lado del cliente</div>
+            <div className="comparison-cell">Persiste: contratos, expedientes, incidencias, reportes</div>
+
+            <div className="comparison-cell criterion-cell">Cumplimiento normativo</div>
+            <div className="comparison-cell">Especialización permanente y actualización continua</div>
+            <div className="comparison-cell">Depende del equipo interno; errores generan contingencias</div>
+
+            <div className="comparison-cell criterion-cell">Costo operativo</div>
+            <div className="comparison-cell">Variable y controlado según volumen</div>
+            <div className="comparison-cell">Fijo: salarios, prestaciones, infraestructura, rotación</div>
+
+            <div className="comparison-cell criterion-cell">Confidencialidad salarial</div>
+            <div className="comparison-cell">Gestión externa, sin exposición interna</div>
+            <div className="comparison-cell">Estructuras salariales visibles dentro de la organización</div>
+
+            <div className="comparison-cell criterion-cell">Velocidad de implementación</div>
+            <div className="comparison-cell">Operativo de inmediato, sin curva de aprendizaje</div>
+            <div className="comparison-cell">Requiere contratación, formación y tiempo de adaptación</div>
+
+            <div className="comparison-cell criterion-cell">Escalabilidad</div>
+            <div className="comparison-cell">Se ajusta al volumen sin cambios estructurales</div>
+            <div className="comparison-cell">Requiere contratar o reducir personal de RR.HH. según demanda</div>
+          </div>
+        </section>
+
         <section className="mission-section simple-surface">
           <div>
             <div className="eyebrow">Misión e intención</div>
