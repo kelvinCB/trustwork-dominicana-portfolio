@@ -168,7 +168,8 @@ main {
   box-shadow: 0 24px 70px rgba(0,0,0,.28);
 }
 .hero-image {
-  min-height: 380px;
+  min-height: 420px;
+  object-position: center;
 }
 .clean-stats, .clean-grid, .contact-grid {
   display: grid;
