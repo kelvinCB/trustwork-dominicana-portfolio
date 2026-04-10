@@ -14,7 +14,7 @@ import {
 } from 'lucide-react';
 import './App.css';
 
-const heroImage = 'https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1400&q=80';
+const heroImage = 'https://images.unsplash.com/photo-1560472354-b33a0b4297e7?auto=format&fit=crop&w=1000&q=80';
 const servicesImage = 'https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1200&q=80';
 const rdImage = 'https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?auto=format&fit=crop&w=1200&q=80';
 const teamImage = 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80';
