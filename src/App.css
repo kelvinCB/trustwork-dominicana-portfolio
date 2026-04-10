@@ -809,3 +809,54 @@ main {
     border-right: none;
   }
 }
+
+
+.service-guarantees-section,
+.confidentiality-section {
+  margin-top: 34px;
+}
+
+.mini-grid-table {
+  display: grid;
+  border: 1px solid rgba(255,255,255,0.12);
+}
+
+.mini-grid-table.three-columns {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.mini-head {
+  background: #172955;
+  color: white;
+  font-weight: 800;
+  padding: 16px 14px;
+  border-right: 1px solid rgba(255,255,255,0.08);
+}
+
+.mini-head:nth-child(3n) {
+  border-right: none;
+}
+
+.mini-cell {
+  padding: 16px 14px 18px;
+  color: rgba(255,255,255,0.92);
+  line-height: 1.5;
+  border-top: 1px solid rgba(255,255,255,0.12);
+  border-right: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.03);
+}
+
+.mini-cell:nth-child(3n) {
+  border-right: none;
+}
+
+@media (max-width: 980px) {
+  .mini-grid-table.three-columns {
+    grid-template-columns: 1fr;
+  }
+
+  .mini-head,
+  .mini-cell {
+    border-right: none;
+  }
+}

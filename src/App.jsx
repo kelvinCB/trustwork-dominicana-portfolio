@@ -347,6 +347,41 @@ function App() {
           </div>
         </section>
 
+
+
+        <section className="service-guarantees-section" aria-labelledby="service-guarantees-title">
+          <h2 id="service-guarantees-title" className="tech-platform-title">Garantías y compromisos de servicio</h2>
+          <div className="tech-platform-divider" />
+          <div className="mini-grid-table three-columns">
+            <div className="mini-head">Punto de contacto dedicado</div>
+            <div className="mini-head">Reportería periódica y transparente</div>
+            <div className="mini-head">Confidencialidad garantizada</div>
+            <div className="mini-cell">Cada cliente cuenta con un oficial de cuenta asignado como interlocutor principal, responsable del seguimiento continuo y la resolución oportuna de cualquier requerimiento.</div>
+            <div className="mini-cell">Informes de nómina, incidencias, movimientos de personal y seguridad social entregados en los plazos acordados, con formato claro y trazabilidad completa.</div>
+            <div className="mini-cell">Toda la información del cliente —salarial, documental y contractual— se maneja bajo protocolos de acceso restringido y reserva institucional, sin excepciones.</div>
+            <div className="mini-head">Cumplimiento normativo continuo</div>
+            <div className="mini-head">Gestión ágil de incidencias</div>
+            <div className="mini-head">Escalabilidad sin fricciones</div>
+            <div className="mini-cell">La TWD monitorea permanentemente los cambios en la legislación laboral dominicana para garantizar que cada operación se mantenga dentro del marco legal vigente.</div>
+            <div className="mini-cell">Las solicitudes, ajustes y contingencias del cliente se atienden con tiempos de respuesta definidos, sin demoras que afecten la operación del negocio.</div>
+            <div className="mini-cell">El modelo de servicio se adapta al crecimiento o reducción del personal del cliente sin requerir renegociaciones complejas ni cambios estructurales en el esquema acordado.</div>
+          </div>
+        </section>
+
+        <section className="confidentiality-section" aria-labelledby="confidentiality-title">
+          <h2 id="confidentiality-title" className="tech-platform-title">Confidencialidad y manejo de información</h2>
+          <div className="tech-platform-divider" />
+          <p className="tech-platform-copy">En TrustWork Dominicana, la confidencialidad no es una política complementaria: es la base sobre la que opera toda la firma. El cliente que externaliza su gestión laboral confía en TWD información crítica de su organización. Esa confianza se protege con protocolos estándar de la industria.</p>
+          <div className="mini-grid-table three-columns">
+            <div className="mini-head">Información salarial</div>
+            <div className="mini-head">Datos personales de los colaboradores</div>
+            <div className="mini-head">Acuerdos comerciales</div>
+            <div className="mini-cell">Las estructuras de compensación, escalas y condiciones individuales se administran externamente, sin exposición dentro de la organización del cliente.</div>
+            <div className="mini-cell">La información de los colaboradores se gestiona con privacidad, acceso restringido y protocolos de manejo documental definidos conforme a estándares internacionales.</div>
+            <div className="mini-cell">La relación entre la TWD, sus clientes y Directores de Desarrollo de Negocios B2B se rige bajo acuerdos de confidencialidad institucional sin excepción.</div>
+          </div>
+        </section>
+
         <section className="mission-section simple-surface">
           <div>
             <div className="eyebrow">Misión e intención</div>
