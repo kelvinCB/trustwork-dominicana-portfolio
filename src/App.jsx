@@ -1,17 +1,4 @@
-import {
-  ArrowRight,
-  BadgeCheck,
-  Briefcase,
-  CheckCircle2,
-  FileSpreadsheet,
-  Globe2,
-  Landmark,
-  Mail,
-  Phone,
-  ShieldCheck,
-  Users,
-  MessageCircle,
-} from 'lucide-react';
+import { ArrowRight, BadgeCheck, Briefcase, CheckCircle2, FileSpreadsheet, Landmark, Mail, ShieldCheck, Users } from 'lucide-react';
 import './App.css';
 
 const heroImage = 'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80';
@@ -22,7 +9,7 @@ const teamImage = 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?
 const pillars = [
   { title: 'Respaldo y protección empresarial', text: 'Asumimos la responsabilidad laboral en nombre del cliente para reducir exposición operativa y legal.', icon: ShieldCheck },
   { title: 'Confianza y confidencialidad', text: 'Reserva total en el manejo de datos sensibles, procesos internos y documentación laboral.', icon: BadgeCheck },
-  { title: 'Eficiencia y resultados', text: 'Procesos precisos, reportería clara y cumplimiento puntual para sostener operaciones estables.', icon: FileSpreadsheet },
+  { title: 'Eficiencia y resultados', text: 'Procesos precisos, reportería clara y cumplimiento puntal para sostener operaciones estables.', icon: FileSpreadsheet },
   { title: 'Cumplimiento legal ético', text: 'Operación dentro del marco legal vigente en República Dominicana, con rigor institucional.', icon: Landmark },
 ];
 
@@ -74,7 +61,6 @@ function App() {
           <a href="#contacto">Contacto</a>
         </nav>
       </header>
-
       <main>
         <section className="hero-section editorial-hero with-image">
           <div className="hero-copy">
@@ -174,17 +160,14 @@ function App() {
         </section>
 
         <section className="cta-section simple-surface" id="contacto">
-          <div>
+          <div className="contact-centered">
             <div className="eyebrow">Contacto comercial</div>
-            <h2>Solicita una conversación estratégica para estructurar tu operación laboral con mayor control y cumplimiento.</h2>
-            <p>TrustWork Dominicana puede convertirse en el respaldo operativo que tu empresa necesita para crecer con menos fricción administrativa y más seguridad jurídica.</p>
+            <h2>Favor comunicarse con su Director de Desarrollo de Negocios B2B, de su preferencia.</h2>
+            <a className="contact-email-large" href="mailto:alianzas@trustworkdominicana.com">
+              <Mail size={28} />
+              <span>alianzas@trustworkdominicana.com</span>
+            </a>
           </div>
-          <div className="contact-grid editorial-contact-grid">
-            <a className="contact-card minimal-contact" href="mailto:contacto@trustworkdominicana.com"><Mail size={20} /><div><strong>Correo</strong><span>contacto@trustworkdominicana.com</span></div></a>
-            <a className="contact-card minimal-contact" href="tel:+18295550147"><Phone size={20} /><div><strong>Teléfono</strong><span>+1 (829) 555-0147</span></div></a>
-            <a className="contact-card minimal-contact" href="https://wa.me/18295550147" target="_blank" rel="noreferrer"><MessageCircle size={20} /><div><strong>WhatsApp</strong><span>Escribir por WhatsApp</span></div></a>
-          </div>
-          <div className="cta-actions"><a className="primary-button" href="mailto:contacto@trustworkdominicana.com?subject=Consulta%20estrat%C3%A9gica%20-%20TrustWork%20Dominicana">Solicitar conversación estratégica <ArrowRight size={18} /></a></div>
         </section>
       </main>
     </div>
