@@ -3,7 +3,7 @@ import './App.css';
 
 const heroImage = 'https://images.unsplash.com/photo-1548018019-a8686ffb6a3e?auto=format&fit=crop&w=1600&q=80';
 const servicesImage = 'https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1200&q=80';
-const rdImage = 'https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?auto=format&fit=crop&w=1200&q=80';
+const rdImage = 'https://images.unsplash.com/photo-1586165877141-7b5f8a1b2a3d?auto=format&fit=crop&w=1200&q=80';
 const teamImage = 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80';
 
 const pillars = [
