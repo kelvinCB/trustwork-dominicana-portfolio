@@ -158,18 +158,51 @@ main {
 .hero-image-wrap, .image-panel {
   position: relative;
 }
+
+.hero-image-wrap::before, .image-panel::before {
+  content: '';
+  position: absolute;
+  inset: -3px;
+  border-radius: 28px;
+  background: linear-gradient(135deg, rgba(239,68,68,.3), rgba(185,28,28,.1), rgba(239,68,68,.2));
+  z-index: -1;
+  opacity: .6;
+}
+
+.hero-image-wrap::after, .image-panel::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 24px;
+  box-shadow: inset 0 0 60px rgba(0,0,0,.15);
+  pointer-events: none;
+}
 .section-image {
   width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
-  border-radius: 32px;
+  border-radius: 24px;
   min-height: 380px;
   box-shadow: 0 24px 70px rgba(0,0,0,.28);
+  border: 1px solid rgba(255,255,255,.08);
+  transition: transform .4s ease, box-shadow .4s ease;
 }
+
+.section-image:hover {
+  transform: scale(1.02) translateY(-4px);
+  box-shadow: 0 32px 90px rgba(239,68,68,.15), 0 24px 70px rgba(0,0,0,.35);
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
 .hero-image {
   min-height: 420px;
   object-position: center;
+  animation: float 6s ease-in-out infinite;
 }
 .clean-stats, .clean-grid, .contact-grid {
   display: grid;
