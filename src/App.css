@@ -494,3 +494,77 @@ main {
 .profile-column, .simple-surface, .soft-card, .bare-stat, .sector-chip {
   backdrop-filter: blur(16px);
 }
+
+
+.tech-platform-section {
+  margin-top: 34px;
+}
+
+.tech-platform-title {
+  margin: 0 0 10px;
+  font-size: clamp(2rem, 3vw, 2.6rem);
+  letter-spacing: -0.03em;
+}
+
+.tech-platform-divider {
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, #d7b06a, rgba(215,176,106,0.18));
+  margin-bottom: 18px;
+}
+
+.tech-platform-copy {
+  max-width: 900px;
+  color: rgba(255,255,255,0.86);
+  line-height: 1.6;
+  margin: 0 0 22px;
+}
+
+.tech-platform-table {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  border: 1px solid rgba(215,176,106,0.38);
+  background: rgba(255,255,255,0.02);
+}
+
+.tech-platform-head {
+  background: #d7b06a;
+  color: #241a10;
+  font-weight: 800;
+  padding: 18px 14px;
+  border-right: 1px solid rgba(36,26,16,0.12);
+}
+
+.tech-platform-head:last-child {
+  border-right: none;
+}
+
+.tech-platform-cell {
+  padding: 16px 14px 18px;
+  color: rgba(255,255,255,0.92);
+  line-height: 1.5;
+  border-top: 1px solid rgba(255,255,255,0.12);
+  border-right: 1px solid rgba(255,255,255,0.08);
+}
+
+.tech-platform-cell:nth-last-child(1),
+.tech-platform-cell:nth-last-child(2),
+.tech-platform-cell:nth-last-child(3),
+.tech-platform-cell:nth-last-child(4) {
+  border-bottom: none;
+}
+
+.tech-platform-cell:last-child {
+  border-right: none;
+}
+
+@media (max-width: 980px) {
+  .tech-platform-table {
+    grid-template-columns: 1fr;
+  }
+
+  .tech-platform-head,
+  .tech-platform-cell {
+    border-right: none;
+  }
+}

@@ -155,6 +155,30 @@ function App() {
           </div>
         </section>
 
+
+
+        <section className="tech-platform-section" aria-labelledby="tech-platform-title">
+          <h2 id="tech-platform-title" className="tech-platform-title">Plataforma de gestión y tecnología</h2>
+          <div className="tech-platform-divider" />
+          <p className="tech-platform-copy">
+            TrustWork Dominicana estructura sus procesos mediante herramientas digitales y controles operativos
+            que garantizan precisión, trazabilidad y acceso organizado a la información de cada cliente. Cada
+            proceso—desde el alta del personal hasta la liquidación mensual— se gestiona bajo estándares de
+            control, respaldo documental y seguimiento continuo.
+          </p>
+          <div className="tech-platform-table">
+            <div className="tech-platform-head">Portal del cliente</div>
+            <div className="tech-platform-head">Gestión documental</div>
+            <div className="tech-platform-head">Nómina digital</div>
+            <div className="tech-platform-head">Reportería en tiempo real</div>
+
+            <div className="tech-platform-cell">Acceso coordinado a información clave, reportes y estado de la nómina a través de canales definidos con el cliente.</div>
+            <div className="tech-platform-cell">Expedientes organizados con control interno, acceso restringido y resguardo institucional de la documentación laboral.</div>
+            <div className="tech-platform-cell">Procesamiento estructurado de nómina con validación de retenciones, contribuciones al TSS y generación de comprobantes.</div>
+            <div className="tech-platform-cell">Informes de incidencias, movimientos y cumplimiento normativo entregados en plazos acordados.</div>
+          </div>
+        </section>
+
         <section className="mission-section simple-surface">
           <div>
             <div className="eyebrow">Misión e intención</div>
