@@ -568,3 +568,68 @@ main {
     border-right: none;
   }
 }
+
+
+.onboarding-process-section {
+  margin-top: 34px;
+}
+
+.onboarding-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  border: 1px solid rgba(255,255,255,0.12);
+}
+
+.onboarding-card {
+  padding: 18px 16px 20px;
+  border-right: 1px solid rgba(255,255,255,0.12);
+}
+
+.onboarding-card:last-child {
+  border-right: none;
+}
+
+.accent-card {
+  background: #cfe3f5;
+  color: #1e2430;
+}
+
+.soft-process-card {
+  background: #f1f1f4;
+  color: #232634;
+}
+
+.onboarding-number {
+  font-size: 3rem;
+  line-height: 1;
+  font-weight: 800;
+  color: #d7b06a;
+  margin-bottom: 10px;
+}
+
+.onboarding-card h3 {
+  margin: 0 0 10px;
+  line-height: 1.15;
+  font-size: 1.4rem;
+}
+
+.onboarding-card p {
+  margin: 0;
+  line-height: 1.5;
+  color: inherit;
+}
+
+@media (max-width: 980px) {
+  .onboarding-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .onboarding-card {
+    border-right: none;
+    border-bottom: 1px solid rgba(255,255,255,0.12);
+  }
+
+  .onboarding-card:last-child {
+    border-bottom: none;
+  }
+}

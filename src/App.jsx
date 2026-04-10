@@ -179,6 +179,35 @@ function App() {
           </div>
         </section>
 
+
+
+        <section className="onboarding-process-section" aria-labelledby="onboarding-process-title">
+          <h2 id="onboarding-process-title" className="tech-platform-title">Cómo funciona — Proceso de vinculación</h2>
+          <div className="tech-platform-divider" />
+          <div className="onboarding-grid">
+            <div className="onboarding-card accent-card">
+              <div className="onboarding-number">01</div>
+              <h3>Diagnóstico inicial</h3>
+              <p>Evaluamos la estructura del cliente: personal activo, contratos vigentes, estado de nómina y situación ante la TSS.</p>
+            </div>
+            <div className="onboarding-card soft-process-card">
+              <div className="onboarding-number">02</div>
+              <h3>Propuesta a medida</h3>
+              <p>Diseñamos el modelo de servicio según el perfil, tamaño, sector y necesidades específicas de la empresa.</p>
+            </div>
+            <div className="onboarding-card soft-process-card">
+              <div className="onboarding-number">03</div>
+              <h3>Formalización</h3>
+              <p>Suscripción del acuerdo de servicio y traspaso ordenado de la gestión del personal hacia TrustWork Dominicana.</p>
+            </div>
+            <div className="onboarding-card accent-card">
+              <div className="onboarding-number">04</div>
+              <h3>Operación continua</h3>
+              <p>Gestión integral, reportería periódica y punto de contacto dedicado para el cliente desde el primer día de operación.</p>
+            </div>
+          </div>
+        </section>
+
         <section className="mission-section simple-surface">
           <div>
             <div className="eyebrow">Misión e intención</div>
