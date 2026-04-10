@@ -208,6 +208,101 @@ function App() {
           </div>
         </section>
 
+
+
+        <section className="operating-model-section" aria-labelledby="operating-model-title">
+          <h2 id="operating-model-title" className="tech-platform-title">Modelo de operación</h2>
+          <div className="tech-platform-divider" />
+          <p className="tech-platform-copy">
+            TrustWork Dominicana opera bajo un modelo de servicio completamente externalizado: la firma asume
+            la relación laboral formal con el personal del cliente, ejecuta todos los procesos administrativos y
+            responde ante las autoridades laborales y de seguridad social en nombre propio. El cliente mantiene el
+            control operativo y directivo sobre su equipo sin asumir la carga jurídica.
+          </p>
+          <div className="operating-model-table">
+            <div className="operating-model-head">Clientes que atendemos</div>
+            <div className="operating-model-head">Servicios incluidos en el modelo</div>
+            <div className="operating-model-cell">
+              <ul>
+                <li>Empresas locales establecidas</li>
+                <li>Empresas internacionales con operación en RD</li>
+                <li>Startups en proceso de formalización</li>
+                <li>Empresas en fase de expansión o reestructuración</li>
+                <li>Operaciones temporales o por proyecto</li>
+                <li>Grupos corporativos con múltiples nóminas</li>
+              </ul>
+            </div>
+            <div className="operating-model-cell">
+              <ul>
+                <li>Contratación y administración del personal</li>
+                <li>Gestión documental laboral completa</li>
+                <li>Control de procesos disciplinarios</li>
+                <li>Procesos de bancarización del personal</li>
+                <li>Cumplimiento normativo continuo (Código Laboral y TSS)</li>
+                <li>Gestión de incidencias y reportería</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section className="use-cases-section" aria-labelledby="use-cases-title">
+          <h2 id="use-cases-title" className="tech-platform-title">Casos de uso ilustrativos</h2>
+          <div className="tech-platform-divider" />
+          <div className="use-cases-grid">
+            <div className="use-case-card">
+              <div className="use-case-head">Empresa grande — Manufactura</div>
+              <div className="use-case-body">
+                <h4>Contexto</h4>
+                <p>Empresa manufacturera con 200+ colaboradores en zona franca: altos costos de administración interna, incidencias sin control y riesgos legales acumulados por inconsistencias en contratos y seguridad social.</p>
+                <h4>Solución TWD</h4>
+                <p>Transferencia de la gestión a TWD: reducción de estructura administrativa interna, resolución de contingencias laborales pendientes y reportería centralizada para su casa matriz.</p>
+              </div>
+              <div className="use-case-results">
+                <h4>Resultados obtenidos</h4>
+                <ul>
+                  <li>Reducción de hasta un 35% en costos de administración de personal</li>
+                  <li>Contingencias laborales resueltas: 100%</li>
+                  <li>Tiempo de implementación: 30 días</li>
+                </ul>
+              </div>
+            </div>
+            <div className="use-case-card">
+              <div className="use-case-head">Empresa pequeña — Servicios</div>
+              <div className="use-case-body">
+                <h4>Contexto</h4>
+                <p>Empresa de servicios profesionales con 15 empleados operando sin contratos formales, sin afiliación a seguridad social y con riesgo latente de demandas laborales que podían comprometer la continuidad del negocio.</p>
+                <h4>Solución TWD</h4>
+                <p>Formalización de toda la plantilla, gestión de afiliación al SFS, AFP y SRL, y estructura de nómina que protege legalmente tanto a la empresa como a sus colaboradores.</p>
+              </div>
+              <div className="use-case-results">
+                <h4>Resultados obtenidos</h4>
+                <ul>
+                  <li>Personal formalizado: 15/15</li>
+                  <li>Riesgo de demandas: eliminado</li>
+                  <li>Tiempo de implementación: 21 días</li>
+                </ul>
+              </div>
+            </div>
+            <div className="use-case-card">
+              <div className="use-case-head">Empresa internacional — Tecnología</div>
+              <div className="use-case-body">
+                <h4>Contexto</h4>
+                <p>Firma tecnológica con sede en Europa que necesitaba contratar un equipo local en RD sin constituir entidad legal propia ni asumir directamente la carga laboral dominicana.</p>
+                <h4>Solución TWD</h4>
+                <p>Contratación de 8 personas bajo marco legal dominicano, con nómina en euros y gestión documental completa, sin necesidad de establecer subsidiaria desde el primer día.</p>
+              </div>
+              <div className="use-case-results">
+                <h4>Resultados obtenidos</h4>
+                <ul>
+                  <li>Primer contrato operativo: 10 días</li>
+                  <li>Nómina en euros desde el día 1</li>
+                  <li>Estructura legal propia requerida: No</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section className="mission-section simple-surface">
           <div>
             <div className="eyebrow">Misión e intención</div>
