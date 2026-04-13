@@ -68,17 +68,16 @@ ul {
 .brand-mark {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
-  font-weight: 700;
-  letter-spacing: .02em;
 }
-.brand-dot {
-  width: 14px;
-  height: 14px;
-  border-radius: 999px;
-  background: linear-gradient(135deg, var(--accent-pink), var(--accent-purple));
-  box-shadow: 0 0 18px rgba(122,1,2,.45);
+
+.brand-logo {
+  display: block;
+  width: clamp(180px, 22vw, 300px);
+  height: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 10px 24px rgba(0,0,0,0.22));
 }
+
 .site-nav {
   display: flex;
   gap: 20px;

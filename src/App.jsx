@@ -76,7 +76,9 @@ function App() {
     <div className="app-shell">
       <div className="noise" />
       <header className="site-header">
-        <div className="brand-mark"><div className="brand-dot" /><span>TrustWork Dominicana</span></div>
+        <div className="brand-mark">
+          <img src="/branding/twd-logo-header.webp" alt="TrustWork Dominicana" className="brand-logo" />
+        </div>
         <nav className="site-nav" aria-label="Navegación principal">
           <a href="#servicios">Servicios</a>
           <a href="#empresa">Empresa</a>
