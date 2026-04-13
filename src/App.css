@@ -674,6 +674,11 @@ main {
   gap: 18px;
 }
 
+.tech-platform-item {
+  display: grid;
+  gap: 12px;
+}
+
 .tech-platform-head,
 .tech-platform-cell {
   position: relative;
