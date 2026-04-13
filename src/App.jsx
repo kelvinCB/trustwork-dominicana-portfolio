@@ -1,7 +1,7 @@
 import { ArrowRight, BadgeCheck, Briefcase, CheckCircle2, FileSpreadsheet, Landmark, Mail, ShieldCheck, Users } from 'lucide-react';
 import './App.css';
 
-const heroImage = 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1600&q=80';
+const heroImage = '/images/hero-corporate-towers.jpg';
 const rdImage = 'https://images.unsplash.com/photo-1583355993508-8f58d85d4922?auto=format&fit=crop&w=1200&q=80';
 const teamImage = 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80';
 
