@@ -807,6 +807,12 @@ main {
   gap: 18px;
 }
 
+.operating-model-item,
+.mini-item {
+  display: grid;
+  gap: 12px;
+}
+
 .operating-model-head,
 .operating-model-cell {
   position: relative;

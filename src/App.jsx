@@ -259,27 +259,31 @@ function App() {
             control operativo y directivo sobre su equipo sin asumir la carga jurídica.
           </p>
           <div className="operating-model-table">
-            <div className="operating-model-head">Clientes que atendemos</div>
-            <div className="operating-model-head">Servicios incluidos en el modelo</div>
-            <div className="operating-model-cell">
-              <ul>
-                <li>Empresas locales establecidas</li>
-                <li>Empresas internacionales con operación en RD</li>
-                <li>Startups en proceso de formalización</li>
-                <li>Empresas en fase de expansión o reestructuración</li>
-                <li>Operaciones temporales o por proyecto</li>
-                <li>Grupos corporativos con múltiples nóminas</li>
-              </ul>
+            <div className="operating-model-item">
+              <div className="operating-model-head">Clientes que atendemos</div>
+              <div className="operating-model-cell">
+                <ul>
+                  <li>Empresas locales establecidas</li>
+                  <li>Empresas internacionales con operación en RD</li>
+                  <li>Startups en proceso de formalización</li>
+                  <li>Empresas en fase de expansión o reestructuración</li>
+                  <li>Operaciones temporales o por proyecto</li>
+                  <li>Grupos corporativos con múltiples nóminas</li>
+                </ul>
+              </div>
             </div>
-            <div className="operating-model-cell">
-              <ul>
-                <li>Contratación y administración del personal</li>
-                <li>Gestión documental laboral completa</li>
-                <li>Control de procesos disciplinarios</li>
-                <li>Procesos de bancarización del personal</li>
-                <li>Cumplimiento normativo continuo (Código Laboral y TSS)</li>
-                <li>Gestión de incidencias y reportería</li>
-              </ul>
+            <div className="operating-model-item">
+              <div className="operating-model-head">Servicios incluidos en el modelo</div>
+              <div className="operating-model-cell">
+                <ul>
+                  <li>Contratación y administración del personal</li>
+                  <li>Gestión documental laboral completa</li>
+                  <li>Control de procesos disciplinarios</li>
+                  <li>Procesos de bancarización del personal</li>
+                  <li>Cumplimiento normativo continuo (Código Laboral y TSS)</li>
+                  <li>Gestión de incidencias y reportería</li>
+                </ul>
+              </div>
             </div>
           </div>
         </section>
@@ -392,18 +396,30 @@ function App() {
           <h2 id="service-guarantees-title" className="tech-platform-title">Garantías y compromisos de servicio</h2>
           <div className="tech-platform-divider" />
           <div className="mini-grid-table three-columns">
-            <div className="mini-head">Punto de contacto dedicado</div>
-            <div className="mini-head">Reportería periódica y transparente</div>
-            <div className="mini-head">Confidencialidad garantizada</div>
-            <div className="mini-cell">Cada cliente cuenta con un oficial de cuenta asignado como interlocutor principal, responsable del seguimiento continuo y la resolución oportuna de cualquier requerimiento.</div>
-            <div className="mini-cell">Informes de nómina, incidencias, movimientos de personal y seguridad social entregados en los plazos acordados, con formato claro y trazabilidad completa.</div>
-            <div className="mini-cell">Toda la información del cliente —salarial, documental y contractual— se maneja bajo protocolos de acceso restringido y reserva institucional, sin excepciones.</div>
-            <div className="mini-head">Cumplimiento normativo continuo</div>
-            <div className="mini-head">Gestión ágil de incidencias</div>
-            <div className="mini-head">Escalabilidad sin fricciones</div>
-            <div className="mini-cell">La TWD monitorea permanentemente los cambios en la legislación laboral dominicana para garantizar que cada operación se mantenga dentro del marco legal vigente.</div>
-            <div className="mini-cell">Las solicitudes, ajustes y contingencias del cliente se atienden con tiempos de respuesta definidos, sin demoras que afecten la operación del negocio.</div>
-            <div className="mini-cell">El modelo de servicio se adapta al crecimiento o reducción del personal del cliente sin requerir renegociaciones complejas ni cambios estructurales en el esquema acordado.</div>
+            <div className="mini-item">
+              <div className="mini-head">Punto de contacto dedicado</div>
+              <div className="mini-cell">Cada cliente cuenta con un oficial de cuenta asignado como interlocutor principal, responsable del seguimiento continuo y la resolución oportuna de cualquier requerimiento.</div>
+            </div>
+            <div className="mini-item">
+              <div className="mini-head">Reportería periódica y transparente</div>
+              <div className="mini-cell">Informes de nómina, incidencias, movimientos de personal y seguridad social entregados en los plazos acordados, con formato claro y trazabilidad completa.</div>
+            </div>
+            <div className="mini-item">
+              <div className="mini-head">Confidencialidad garantizada</div>
+              <div className="mini-cell">Toda la información del cliente —salarial, documental y contractual— se maneja bajo protocolos de acceso restringido y reserva institucional, sin excepciones.</div>
+            </div>
+            <div className="mini-item">
+              <div className="mini-head">Cumplimiento normativo continuo</div>
+              <div className="mini-cell">La TWD monitorea permanentemente los cambios en la legislación laboral dominicana para garantizar que cada operación se mantenga dentro del marco legal vigente.</div>
+            </div>
+            <div className="mini-item">
+              <div className="mini-head">Gestión ágil de incidencias</div>
+              <div className="mini-cell">Las solicitudes, ajustes y contingencias del cliente se atienden con tiempos de respuesta definidos, sin demoras que afecten la operación del negocio.</div>
+            </div>
+            <div className="mini-item">
+              <div className="mini-head">Escalabilidad sin fricciones</div>
+              <div className="mini-cell">El modelo de servicio se adapta al crecimiento o reducción del personal del cliente sin requerir renegociaciones complejas ni cambios estructurales en el esquema acordado.</div>
+            </div>
           </div>
         </section>
 
@@ -412,12 +428,18 @@ function App() {
           <div className="tech-platform-divider" />
           <p className="tech-platform-copy">En TrustWork Dominicana, la confidencialidad no es una política complementaria: es la base sobre la que opera toda la firma. El cliente que externaliza su gestión laboral confía en TWD información crítica de su organización. Esa confianza se protege con protocolos estándar de la industria.</p>
           <div className="mini-grid-table three-columns">
-            <div className="mini-head">Información salarial</div>
-            <div className="mini-head">Datos personales de los colaboradores</div>
-            <div className="mini-head">Acuerdos comerciales</div>
-            <div className="mini-cell">Las estructuras de compensación, escalas y condiciones individuales se administran externamente, sin exposición dentro de la organización del cliente.</div>
-            <div className="mini-cell">La información de los colaboradores se gestiona con privacidad, acceso restringido y protocolos de manejo documental definidos conforme a estándares internacionales.</div>
-            <div className="mini-cell">La relación entre la TWD, sus clientes y Directores de Desarrollo de Negocios B2B se rige bajo acuerdos de confidencialidad institucional sin excepción.</div>
+            <div className="mini-item">
+              <div className="mini-head">Información salarial</div>
+              <div className="mini-cell">Las estructuras de compensación, escalas y condiciones individuales se administran externamente, sin exposición dentro de la organización del cliente.</div>
+            </div>
+            <div className="mini-item">
+              <div className="mini-head">Datos personales de los colaboradores</div>
+              <div className="mini-cell">La información de los colaboradores se gestiona con privacidad, acceso restringido y protocolos de manejo documental definidos conforme a estándares internacionales.</div>
+            </div>
+            <div className="mini-item">
+              <div className="mini-head">Acuerdos comerciales</div>
+              <div className="mini-cell">La relación entre la TWD, sus clientes y Directores de Desarrollo de Negocios B2B se rige bajo acuerdos de confidencialidad institucional sin excepción.</div>
+            </div>
           </div>
         </section>
 
@@ -433,12 +455,18 @@ function App() {
             correctamente.
           </p>
           <div className="mini-grid-table three-columns">
-            <div className="mini-head">Para el Director B2B</div>
-            <div className="mini-head">Para el cliente final</div>
-            <div className="mini-head">Para el mercado internacional</div>
-            <div className="mini-cell">Este material es su herramienta estratégica de presentación. Sus clientes acceden a la firma a través de su recomendación y se vinculan directamente con nuestra estructura operativa bajo su respaldo personal.</div>
-            <div className="mini-cell">Cada cliente cuenta con un punto de contacto dedicado y visibilidad total de su operación desde el primer día. La experiencia del servicio es personalizada, no estándar.</div>
-            <div className="mini-cell">Operamos en la República Dominicana bajo estándares de gestión alineados con mercados internacionales, facilitando la entrada y escalabilidad de empresas extranjeras en el país.</div>
+            <div className="mini-item">
+              <div className="mini-head">Para el Director B2B</div>
+              <div className="mini-cell">Este material es su herramienta estratégica de presentación. Sus clientes acceden a la firma a través de su recomendación y se vinculan directamente con nuestra estructura operativa bajo su respaldo personal.</div>
+            </div>
+            <div className="mini-item">
+              <div className="mini-head">Para el cliente final</div>
+              <div className="mini-cell">Cada cliente cuenta con un punto de contacto dedicado y visibilidad total de su operación desde el primer día. La experiencia del servicio es personalizada, no estándar.</div>
+            </div>
+            <div className="mini-item">
+              <div className="mini-head">Para el mercado internacional</div>
+              <div className="mini-cell">Operamos en la República Dominicana bajo estándares de gestión alineados con mercados internacionales, facilitando la entrada y escalabilidad de empresas extranjeras en el país.</div>
+            </div>
           </div>
         </section>
 
