@@ -14,12 +14,36 @@ const pillars = [
 ];
 
 const services = [
-  'Tercerización laboral y outsourcing administrativo',
-  'Administración de nómina y estructuras multiempresa',
-  'Contratación, expedientes y documentación laboral',
-  'Seguridad social, TSS y cumplimiento tributario',
-  'Procesos disciplinarios y desvinculación conforme al Código de Trabajo',
-  'Acompañamiento para empresas internacionales que operan en RD',
+  {
+    number: '01',
+    title: 'Tercerización Laboral',
+    text: 'Administración integral del personal en nombre del cliente: contratación bajo el Código de Trabajo dominicano, gestión documental completa y procesos disciplinarios conforme a derecho.',
+  },
+  {
+    number: '02',
+    title: 'Administración de Nómina',
+    text: 'Cálculo, procesamiento y control de nómina con retenciones legales, contribuciones a la TSS (SFS, AFP, SRL) y reportes administrativos bajo estricta confidencialidad y precisión.',
+  },
+  {
+    number: '03',
+    title: 'Reclutamiento y Selección',
+    text: 'Procesos especializados, masivos e internacionales con evaluación por competencias, entrevistas estructuradas y presentación de candidatos alineados al perfil requerido.',
+  },
+  {
+    number: '04',
+    title: 'Gestión de Seguridad Social',
+    text: 'Administración de SFS, AFP y SRL conforme a la Ley 87-01 de Seguridad Social, garantizando cumplimiento, afiliación oportuna del personal y cero contingencias con la TSS.',
+  },
+  {
+    number: '05',
+    title: 'Nómina Multimoneda',
+    text: 'Pagos en pesos dominicanos, dólares y euros. Ideal para estructuras corporativas regionales e internacionales con personal local bajo contratos en divisas extranjeras.',
+  },
+  {
+    number: '06',
+    title: 'Procesos de Desvinculación',
+    text: 'Gestión profesional y conforme al Código Laboral de los procesos de salida: liquidaciones, preaviso, actas de descargo y documentación que proteja al cliente de contingencias futuras.',
+  },
 ];
 
 const reasons = [
@@ -95,18 +119,24 @@ function App() {
           </div>
         </section>
 
-        <section className="services-section editorial-services" id="servicios">
-          <div className="services-copy">
-            <div className="eyebrow">Portafolio de servicios</div>
-            <h2>Todo lo necesario para operar personal con orden, trazabilidad y cumplimiento.</h2>
-            <p>TrustWork Dominicana ejecuta procesos laborales y administrativos que ayudan a las organizaciones a reducir riesgo, ganar eficiencia y sostener crecimiento con una estructura más clara.</p>
-            <div className="services-list simple-surface">
-              <ul>
-                {services.map((service) => <li className="service-row" key={service}><CheckCircle2 size={18} /><span>{service}</span></li>)}
-              </ul>
-            </div>
+        <section className="services-section services-table-section" id="servicios">
+          <div className="services-table-header">
+            <h2>Portafolio de Servicios</h2>
+            <div className="services-table-divider" />
+            <p>
+              Asumimos la gestión laboral y administrativa del personal de nuestros clientes,
+              permitiéndoles operar con mayor eficiencia, reducir riesgos y concentrarse en su actividad principal.
+            </p>
           </div>
-          <div className="image-panel"><img src={servicesImage} alt="Profesionales analizando métricas y procesos de nómina" className="section-image" /></div>
+          <div className="services-table-grid">
+            {services.map((service) => (
+              <article className="service-table-card" key={service.number}>
+                <div className="service-table-number">{service.number}</div>
+                <h3>{service.title}</h3>
+                <p>{service.text}</p>
+              </article>
+            ))}
+          </div>
         </section>
 
 
