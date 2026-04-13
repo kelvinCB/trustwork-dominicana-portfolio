@@ -351,7 +351,7 @@ function App() {
         <section className="comparison-section" aria-labelledby="comparison-title">
           <h2 id="comparison-title" className="tech-platform-title">TWD vs. Departamento de RR.HH. Interno</h2>
           <div className="tech-platform-divider" />
-          <div className="comparison-table comparison-table-desktop">
+          <div className="comparison-table">
             <div className="comparison-head head-criterion">Criterio</div>
             <div className="comparison-head head-twd">TrustWork Dominicana ✓</div>
             <div className="comparison-head head-internal">RR.HH. interno ✗</div>
@@ -387,49 +387,6 @@ function App() {
             <div className="comparison-cell criterion-cell">Escalabilidad</div>
             <div className="comparison-cell">Se ajusta al volumen sin cambios estructurales</div>
             <div className="comparison-cell">Requiere contratar o reducir personal de RR.HH. según demanda</div>
-          </div>
-
-          <div className="comparison-mobile-list">
-            <article className="comparison-mobile-card">
-              <div className="comparison-mobile-criterion">Responsabilidad legal laboral</div>
-              <div className="comparison-mobile-side comparison-mobile-twd"><strong>TrustWork Dominicana ✓</strong><span>La TWD asume la relación laboral y sus obligaciones</span></div>
-              <div className="comparison-mobile-side comparison-mobile-internal"><strong>RR.HH. interno ✗</strong><span>La empresa sigue siendo el empleador; el riesgo no se transfiere</span></div>
-            </article>
-            <article className="comparison-mobile-card">
-              <div className="comparison-mobile-criterion">Exposición a demandas laborales</div>
-              <div className="comparison-mobile-side comparison-mobile-twd"><strong>TrustWork Dominicana ✓</strong><span>Gestionadas y absorbidas por la TWD</span></div>
-              <div className="comparison-mobile-side comparison-mobile-internal"><strong>RR.HH. interno ✗</strong><span>Recaen sobre la empresa y sus representantes legales</span></div>
-            </article>
-            <article className="comparison-mobile-card">
-              <div className="comparison-mobile-criterion">Carga administrativa</div>
-              <div className="comparison-mobile-side comparison-mobile-twd"><strong>TrustWork Dominicana ✓</strong><span>Eliminada por completo del lado del cliente</span></div>
-              <div className="comparison-mobile-side comparison-mobile-internal"><strong>RR.HH. interno ✗</strong><span>Persiste: contratos, expedientes, incidencias, reportes</span></div>
-            </article>
-            <article className="comparison-mobile-card">
-              <div className="comparison-mobile-criterion">Cumplimiento normativo</div>
-              <div className="comparison-mobile-side comparison-mobile-twd"><strong>TrustWork Dominicana ✓</strong><span>Especialización permanente y actualización continua</span></div>
-              <div className="comparison-mobile-side comparison-mobile-internal"><strong>RR.HH. interno ✗</strong><span>Depende del equipo interno; errores generan contingencias</span></div>
-            </article>
-            <article className="comparison-mobile-card">
-              <div className="comparison-mobile-criterion">Costo operativo</div>
-              <div className="comparison-mobile-side comparison-mobile-twd"><strong>TrustWork Dominicana ✓</strong><span>Variable y controlado según volumen</span></div>
-              <div className="comparison-mobile-side comparison-mobile-internal"><strong>RR.HH. interno ✗</strong><span>Fijo: salarios, prestaciones, infraestructura, rotación</span></div>
-            </article>
-            <article className="comparison-mobile-card">
-              <div className="comparison-mobile-criterion">Confidencialidad salarial</div>
-              <div className="comparison-mobile-side comparison-mobile-twd"><strong>TrustWork Dominicana ✓</strong><span>Gestión externa, sin exposición interna</span></div>
-              <div className="comparison-mobile-side comparison-mobile-internal"><strong>RR.HH. interno ✗</strong><span>Estructuras salariales visibles dentro de la organización</span></div>
-            </article>
-            <article className="comparison-mobile-card">
-              <div className="comparison-mobile-criterion">Velocidad de implementación</div>
-              <div className="comparison-mobile-side comparison-mobile-twd"><strong>TrustWork Dominicana ✓</strong><span>Operativo de inmediato, sin curva de aprendizaje</span></div>
-              <div className="comparison-mobile-side comparison-mobile-internal"><strong>RR.HH. interno ✗</strong><span>Requiere contratación, formación y tiempo de adaptación</span></div>
-            </article>
-            <article className="comparison-mobile-card">
-              <div className="comparison-mobile-criterion">Escalabilidad</div>
-              <div className="comparison-mobile-side comparison-mobile-twd"><strong>TrustWork Dominicana ✓</strong><span>Se ajusta al volumen sin cambios estructurales</span></div>
-              <div className="comparison-mobile-side comparison-mobile-internal"><strong>RR.HH. interno ✗</strong><span>Requiere contratar o reducir personal de RR.HH. según demanda</span></div>
-            </article>
           </div>
         </section>
 
