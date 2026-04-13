@@ -70,12 +70,27 @@ ul {
   align-items: center;
 }
 
-.brand-logo {
-  display: block;
-  width: clamp(180px, 22vw, 300px);
-  height: auto;
-  object-fit: contain;
-  filter: drop-shadow(0 10px 24px rgba(0,0,0,0.22));
+.brand-mark-textual {
+  gap: 10px;
+  color: #ffffff;
+  text-shadow: 0 8px 22px rgba(0,0,0,0.18);
+}
+
+.brand-twd {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: clamp(2rem, 3vw, 2.5rem);
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  line-height: 1;
+}
+
+.brand-wordmark {
+  display: inline-block;
+  max-width: 130px;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: clamp(.95rem, 1.2vw, 1.1rem);
+  line-height: .95;
+  font-weight: 400;
 }
 
 .site-nav {
